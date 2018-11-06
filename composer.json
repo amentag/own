@@ -1,0 +1,17 @@
+{
+  "autoload": {
+    "psr-4": {
+      "Tool\\": "src/",
+      "Test\\": "tests/"
+    }
+  },
+  "require-dev": {
+    "symfony/var-dumper": "^4.1",
+    "phpunit/phpunit": "^7.4"
+  },
+  "require": {
+    "guzzlehttp/guzzle": "^6.3",
+    "ext-zip": "^1.15",
+    "ext-fileinfo": "^1.0"
+  }
+}
